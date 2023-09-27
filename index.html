@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery - Photo Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header>
+    <h1>Photo Gallery</h1>
+    <button type="button">New Image +</button>
+  </header>
+  <form>
+    <h2>Insert New Image</h2>
+    <input type="url" id="input-search" required placeholder="Image URL" >
+    <button type="submit">Send</button>
+    <button type="reset" id="btn-cancel">Cancel</button>
+  </form>
+  <ul>
+    <li>
+      <img src="assets/image/foto1.jpg" alt="Cat painting">
+      <div class="overlay-image-link">
+        <a href="assets/image/foto1.jpg" title="Cat painting" target="_blank">
+          See full size image
+        </a>
+      </div>
+    </li>
+    <li>
+      <img src="assets/image/foto2.jpg" alt="Flamingo image">
+      <div class="overlay-image-link">
+        <a href="assets/image/foto2.jpg" title="Flamingo image" target="_blank">
+          See full size image
+        </a>
+      </div>
+    </li>
+    <li>
+      <img src="assets/image/foto3.jpg" alt="Puppy dogs">
+      <div class="overlay-image-link">
+        <a href="assets/image/foto3.jpg" title="Puppy dogs" target="_blank">
+          See full size image
+        </a>
+      </div>
+    </li>
+  </ul>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
